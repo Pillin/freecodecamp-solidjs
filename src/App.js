@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useFormPost } from "./utils/useFormPost";
+import { PostList } from "./components/PostList";
+import { PostListContainer, TitleContainer } from "./components/utils";
+import PostForm from "./components/Containers/PostForm";
+
+import "./App.css";
 
 function App() {
+  const { conf, setConf, state, setState, form } = useFormPost();
   return (
     <div class="App">
-      <header class="App-header">
-        <img src={logo} class="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          class="App-link"
-          href="https://github.com/ryansolid/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+      <PostListContainer>
+        <TitleContainer>
+          <h1>Postea tu amor por los gatos</h1>
+          <PostForm conf={conf} setConf={setConf} form={form} />
+        </TitleContainer>
+        <PostList state={state} setState={setState} />
+      </PostListContainer>
     </div>
   );
 }
