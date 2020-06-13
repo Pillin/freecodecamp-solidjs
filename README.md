@@ -2,6 +2,10 @@
 
 This repository has the code for testing solidjs library, where i made a simple blog implementation.
 
+## Presentation
+
+In the next link, you can find the presentation: https://docs.google.com/presentation/d/1SNrEFov_2OFfgok7HYtR8ePFUQa9KSe-kvFXznLclP0/edit?usp=sharing
+
 ## Installation
 
 Before installation, you need to check the node and npm version:
