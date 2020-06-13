@@ -1,52 +1,28 @@
-This project was bootstrapped with [Create Solid](https://github.com/ryansolid/create-solid).
+# SolidJS: Creating a Cat Blog
 
-## Available Scripts
+This repository has the code for testing solidjs library, where i made a simple blog implementation.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+Before installation, you need to check the node and npm version:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+node: v13.0.1
+npm: 6.12.0
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+After that, you need to run the next command
 
-### `npm test`
+```bash
+npm i
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+```bash
+npm run start
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

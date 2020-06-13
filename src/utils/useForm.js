@@ -11,8 +11,6 @@ const useForm = ({ submit, validate, initialValues }) => {
       }
       submit(e);
       setState(initialValues);
-
-      console.log({ state });
       return;
     }
   };
